@@ -24,6 +24,7 @@ public class CalcTest {
         driver.findElement(By.id("equalButton")).click();
         String result = driver.findElement(By.id("CalculatorResults")).getAttribute("Name");
         System.out.println(result.substring(11));
+        //this is a new line
     }
 
 }
